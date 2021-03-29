@@ -130,8 +130,6 @@ class linked_list:
         # for i in range(n // 2):
         #     self[i], self[(n - 1) - i] = self[(n - 1) - i], self[i]
 
-    def pop(self):
-        pass
 
     def removeAt(self, index):
         next = self.head
